@@ -44,7 +44,7 @@ ead:
 
 authuser:
   refreshscope:
-    name: Natan Moura        
+    name: Natan Moura
 
 eureka:
   client:
