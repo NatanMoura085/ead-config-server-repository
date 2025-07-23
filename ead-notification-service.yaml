@@ -1,12 +1,6 @@
 spring:
   application:
     name: ead-notification-service
-  config:
-    import: 'optional:configserver:'
-  cloud:
-    config:
-      discovery:
-        serviceId: ead-config-server
 
   datasource:
     url: jdbc:postgresql://localhost:5432/ead_notification_v2
@@ -52,14 +46,6 @@ ead:
         name: ead.notificationCommand.ms.notification
     key:
       notificationCommandKey: ms.notification
-
-
-eureka:
-  client:
-    service-url:
-      defaultZone: http://localhost:8761/eureka
-    fetch-registry: true
-    register-with-eureka: true
 
 logging:
   level:
