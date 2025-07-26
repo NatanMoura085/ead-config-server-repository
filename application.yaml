@@ -13,4 +13,7 @@ eureka:
 ead:
   serviceRegistry:
     username: serviceregistry
-    password: ead123sr    
+    password: ead123sr 
+  auth:
+    jwtSecret: faOuL1x2XAgYPFItdWLPEMEgjelkTYGWYXsVmYAAERVTinkmnlTqqOcGoDyNblR7gZtLYybG3kgcBed1vwtTfZeABfMfa+kAPu3Ynn5hyebP3i8UPH/jxOiSn15LlvR0b1xsKl6p9FRRmtNd7NDlfSheU7KJqp/CAZen/FkJbD50ssDHCaq5LKrK1Uzb8P/7/DmMZtoxlhLV2SnGzkLu7EH1a0Kg8U+EI5jJMHZcXEmZFeK4rgNkz3Ge+kZi1kEdPX8pu7ka0eNndifoMfWjxqpDHuTCj3qxFR+V7W1iwDfqEFUH2d2p+upEEU4MWPrmsA5qRfutjZDBxAlq8iess2rjPQsBuYlN12syPa38UPKy2GY5OpIeqITzB3YLBxRjPpasp4UHENuv1ID9fdrq0ZMlOamHDd2+jBrne6MbpDFq8T/v6lmpMSAHeLEZGpfOeaEY1BhSN1/sb3Bf3CPEg/TEo3dCsKT3Dt9YCSHz0F8lHNtLY114J2r0Nko2XWoDDhyLcqoeTML3zu0YCD8SakFYyA3l2MqCMJMFmktfqoThiBbimWn5lm6Fqz2w/zl9ZAGGzhPBQxEkiqXq8Aw3HRp3U2nE4xMybpxK6Qd1LgJTlxuFyZaxUIfENLJxFO1+VgSjxPlfQgnAC7+B8stqEKY56C/K15e6LeeAvDTcXmGlo3XbdxKvIW0hY13rDjnn
+    jwtExpirationMs: 14400000     
